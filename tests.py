@@ -18,7 +18,7 @@ class UnitTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def testGet_Medical_ConditionAPI(self):
-        response = self.app.get('/get_medical_condition/male/1990')
+        response = self.app.get('/get_medical_condition/Anxiety/male/1990')
         self.assertEqual(response.status_code, 200)
 
     def testGet_Nearby_DoctorsAPI(self):
