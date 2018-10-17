@@ -30,7 +30,7 @@ class UnitTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def testTell_Your_ProblemAPI(self):
-        response = self.app.get("/tell_your_problem/i'm having back pain")
+        response = self.app.get("/tell_your_problem/i'm having back pain/female/1989")
         self.assertEqual(response.status_code, 200)
 
 if __name__ == '__main__':
