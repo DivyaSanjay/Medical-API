@@ -9,6 +9,8 @@ A list of nearby doctors can be accessed by entering the user's address.
 
 The user can also enter text like "I'm having back pain" and receive the medical conditions associated with it.
 
+NOTE: The command python -m spacy download en
+
 The implemented functionalities are:-
 
     Fetch_Symptoms - This class fetches a list of medical symptoms and stores them in a database. The user can view the symptoms as well.
