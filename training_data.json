@@ -1,0 +1,546 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm having a back pain",
+                "entities": [
+                    {
+                        "end": 22,
+                        "start": 13,
+                        "entity": "Symptom",
+                        "value": "Back pain"
+                    }
+                ]      
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm experiencing back pain",
+                "entities": [
+                    {
+                        "end": 26,
+                        "start": 17,                        
+                        "entity": "Symptom",
+                        "value": "Back pain"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i've been vomiting since morning",
+                "entities": [
+                    {
+                        "end": 18,
+                        "start": 10,
+                        "entity": "Symptom",
+                        "value": "Vomiting"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "I can't stop vomiting",
+                "entities":[
+                    {
+                        "end": 21,
+                        "start": 13,
+                        "entity": "Symptom",
+                        "value": "Vomiting"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "vomiting continuously",
+                "entities":[
+                    {
+                        "end": 8,
+                        "start": 0,
+                        "entity": "Symptom",
+                        "value": "Vomiting"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "continuous vomiting",
+                "entities":[
+                    {
+                        "end": 19,
+                        "start": 11,
+                        "entity": "Symptom",
+                        "value": "Vomiting"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm unable to pass urine properly",
+                "entities":[
+                    {
+                        "value": "Decreased urine stream",
+                        "start": 14,
+                        "end": 24,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i can't pee properly",
+                "entities":[
+                    {
+                        "value": "Decreased urine stream",
+                        "start": 2,
+                        "end": 11,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm feeling discomfort while urinating",
+                "entities":[
+                    {
+                        "value": "Decreased urine stream",
+                        "start": 12,
+                        "end": 38,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm not able to urinate properly",
+                "entities":[
+                    {
+                        "value": "Decreased urine stream",
+                        "start": 16,
+                        "end": 23,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "the colour of my urine is dark",
+                "entities":[
+                    {
+                        "value": "Dark urine",
+                        "start": 17,
+                        "end": 30,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm passing really weird dark urine",
+                "entities":[
+                    {
+                        "value": "Dark urine",
+                        "start": 25,
+                        "end": 35,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my spine doesn't feel normal",
+                "entities":[
+                    {
+                        "value": "Curvature of the spine",
+                        "start": 3,
+                        "end": 28,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my spine seems to feel a little weird",
+                "entities":[
+                    {
+                        "value": "Curvature of the spine",
+                        "start": 3,
+                        "end": 37,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my spinal cord feels weird",
+                "entities":[
+                    {
+                        "value": "Curvature of the spine",
+                        "start": 3,
+                        "end": 26,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my spinal cord feels curved",
+                "entities":[
+                    {
+                        "value": "Curvature of the spine",
+                        "start": 3,
+                        "end": 27,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm breaking out into a cold sweat",
+                "entities":[
+                    {
+                        "value": "Cold sweats",
+                        "start": 24,
+                        "end": 34,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm having cold sweats",
+                "entities":[
+                    {
+                        "value": "Cold sweats",
+                        "start": 11,
+                        "end": 22,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm experiencing cold sweats",
+                "entities":[
+                    {
+                        "value": "Cold sweats",
+                        "start": 17,
+                        "end": 28,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm having a cold sweat",
+                "entities":[
+                    {
+                        "value": "Cold sweats",
+                        "start": 13,
+                        "end": 23,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i have a cough",
+                "entities":[
+                    {
+                        "value": "Cough",
+                        "start": 9,
+                        "end": 14,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i keep coughing",
+                "entities":[
+                    {
+                        "value": "Cough",
+                        "start": 7,
+                        "end": 15,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i have a cough with mucus",
+                "entities":[
+                    {
+                        "value": "Cough with sputum",
+                        "start": 9,
+                        "end": 26,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i keep coughing with phlegm",
+                "entities":[
+                    {
+                        "value": "Cough with sputum",
+                        "start": 7,
+                        "end": 27,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my hands are feeling cold",
+                "entities":[
+                    {
+                        "value": "Cold hands",
+                        "start": 3,
+                        "end": 25,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i have cold hands",
+                "entities":[
+                    {
+                        "value": "Cold hands",
+                        "start": 7,
+                        "end": 17,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my hands are cold",
+                "entities":[
+                    {
+                        "value": "Cold hands",
+                        "start": 3,
+                        "end": 17,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my hands are very cold",
+                "entities":[
+                    {
+                        "value": "Cold hands",
+                        "start": 3,
+                        "end": 22,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my feet are feeling cold",
+                "entities":[
+                    {
+                        "value": "Cold feet",
+                        "start": 3,
+                        "end": 24,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i have cold feet",
+                "entities":[
+                    {
+                        "value": "Cold feet",
+                        "start": 7,
+                        "end": 16,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my feet are cold",
+                "entities":[
+                    {
+                        "value": "Cold feet",
+                        "start": 3,
+                        "end": 16,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my feet are very cold",
+                "entities":[
+                    {
+                        "value": "Cold feet",
+                        "start": 3,
+                        "end": 21,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm experiencing chills",
+                "entities":[
+                    {
+                        "value": "Chills",
+                        "start": 17,
+                        "end": 23,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i keep getting chills",
+                "entities":[
+                    {
+                        "value": "Chills",
+                        "start": 15,
+                        "end": 21,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i am getting chills",
+                "entities":[
+                    {
+                        "value": "Chills",
+                        "start": 13,
+                        "end": 19,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my skin feels coarse",
+                "entities":[
+                    {
+                        "value": "Coarsening of the skin structure",
+                        "start": 3,
+                        "end": 20,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my skin is coarse",
+                "entities":[
+                    {
+                        "value": "Coarsening of the skin structure",
+                        "start": 3,
+                        "end": 17,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my skin feels hard",
+                "entities":[
+                    {
+                        "value": "Coarsening of the skin structure",
+                        "start": 3,
+                        "end": 18,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm feeling a tightness in my chest",
+                "entities":[
+                    {
+                        "value": "Chest tightness",
+                        "start": 14,
+                        "end": 35,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my chest feels tight",
+                "entities":[
+                    {
+                        "value": "Chest tightness",
+                        "start": 3,
+                        "end": 20,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i have a tightness in my chest",
+                "entities":[
+                    {
+                        "value": "Chest tightness",
+                        "start": 9,
+                        "end": 30,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm having pain in my chest",
+                "entities":[
+                    {
+                        "value": "Chest pain",
+                        "start": 11,
+                        "end": 27,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "i'm having chest pain",
+                "entities":[
+                    {
+                        "value": "Chest pain",
+                        "start": 11,
+                        "end": 21,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my chest is paining",
+                "entities":[
+                    {
+                        "value": "Chest pain",
+                        "start": 3,
+                        "end": 19,
+                        "entity": "Symptom"
+                    }
+                ]
+            },
+            {
+                "intent": "medical_condition_search",
+                "text": "my chest hurts",
+                "entities":[
+                    {
+                        "value": "Chest pain",
+                        "start": 3,
+                        "end": 14,
+                        "entity": "Symptom"
+                    }
+                ]
+            }
+          ]
+       }
+    }
