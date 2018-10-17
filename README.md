@@ -13,30 +13,30 @@ NOTE: The command python -m spacy download en
 
 The implemented functionalities are:-
 
-    Fetch_Symptoms - This class fetches a list of medical symptoms and stores them in a database. The user can view the symptoms as well.
+    1. Fetch_Symptoms - This class fetches a list of medical symptoms and stores them in a database. The user can view the symptoms as well.
 
     eg. <ip_address>/fetch_symptoms
 
-    Get_Medical_Condition - This class gives the possible medical conditions/diagnosis based on the symptoms given by the user. It takes 1 argument:
+    2. Get_Medical_Condition - This class gives the possible medical conditions/diagnosis based on the symptoms given by the user. It takes 1 argument:
         symptoms: The symptoms for which the diagnosis is required.
         
     eg. <ip_address>/get_medical_condition/Anxiety, Vomiting
 
-    Fetch_Issues: This class fetches a list of medical issues and stores them in a database. The user can view the symptoms as well.
+    3. Fetch_Issues: This class fetches a list of medical issues and stores them in a database. The user can view the symptoms as well.
 
     eg. <ip_address>/fetch_issues
 
-    Treatment: This class gives the treatment description for a medical condition given by the user. It takes one argument:
+    4. Treatment: This class gives the treatment description for a medical condition given by the user. It takes one argument:
         issue: The medical condition for which treatment is required.
         
     eg. <ip_address>/treatment/Flu
 
-    Get_Nearby_Doctors: This class gives a list of doctors that are nearest to the user based on the address given by them. It takes 1 argument:
+    5. Get_Nearby_Doctors: This class gives a list of doctors that are nearest to the user based on the address given by them. It takes 1 argument:
         address: The address given by the user.
 
     eg. <ip_address>/get_nearby_doctors/Nucleus Mall, Ranchi
 
-    Tell_Your_Problem: This class extracts symptoms from text like "i'm having back pain" entered by the user and returns the possible medical condition. It takes 1 argument:
+    6. Tell_Your_Problem: This class extracts symptoms from text like "i'm having back pain" entered by the user and returns the possible medical condition. It takes 1 argument:
     problem: The text describing the user's problem
 
     eg. <ip_address>/tell_your_problem/i keep coughing
